@@ -213,6 +213,7 @@ BEGIN
 		PRINT 'Loading Silver Layer is Completed';
 		PRINT '   - Total Load Duration: ' + CAST(DATEDIFF(SECOND, @batch_start_time, @batch_end_time) AS NVARCHAR) + ' seconds';
 		PRINT '=======================================';
+	
 	END TRY 
 	BEGIN CATCH
 		PRINT '=======================================';
