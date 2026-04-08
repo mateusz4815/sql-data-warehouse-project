@@ -39,47 +39,30 @@ These insights empower stakeholders with key business metrics, enabling strategi
 
 The data warehouse pipeline is organized into three main layers:  
 
-1. Bronze (Raw Data) – Stores raw data exactly as it comes from source systems. Minimal processing is applied.  
-2. Silver (Cleaned Data) – Data is cleaned, validated, and normalized to ensure consistency and usability.  
-3. Gold (Analytical Data) – Aggregated and modeled data ready for analytics, reporting, and visualization.  
+1. **Bronze (Raw Data)** – Stores raw data exactly as it comes from source systems. Minimal processing is applied.  
+2. **Silver (Cleaned Data)** – Data is cleaned, validated, and normalized to ensure consistency and usability.  
+3. **Gold (Analytical Data)** – Aggregated and modeled data ready for analytics, reporting, and visualization.  
 
 This structure demonstrates a simple ETL workflow, showing how data flows from raw sources to analytical outputs.
 
 ---
 
-## ⚡ How to Run
-
-1. Clone the repository using Git:  
-   git clone https://github.com/mateusz4815/sql-data-warehouse-project.git
-
-2. Open your database and run the SQL scripts in order:  
-   - Bronze  
-   - Silver  
-   - Gold
-
-3. Check the Gold tables for final results (ready for analysis or reporting)
-
----
-
 ## 🛠️ Technologies
-
 - SQL Server  
 - draw.io / diagrams.net (architecture diagram)
 
 ---
 
 ## 📂 Folder Structure
-
-/sql/bronze/       -> raw data  
-/sql/silver/       -> cleaned data  
-/sql/gold/         -> final tables  
-/docs/diagram.png  -> architecture diagram
+- /sql/bronze/       -> raw data  
+- /sql/silver/       -> cleaned data  
+- /sql/gold/         -> final tables  
+- /docs/diagram.png  -> architecture diagram
 
 ---
 
 ## 🧠 Junior-Level Takeaway
-
-This project demonstrates that I can:  
+This project demonstrates that I can:
 - organize data in a simple ETL pipeline  
 - think in terms of data layers (bronze → silver → gold)  
 - prepare data for analysis and reporting
@@ -87,5 +70,4 @@ This project demonstrates that I can:
 ---
 
 ## 📄 License
-
 This project is licensed under the MIT License. You are free to use, modify, and share this project with proper attribution.
