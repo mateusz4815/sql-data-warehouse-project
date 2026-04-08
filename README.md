@@ -52,7 +52,7 @@ This structure demonstrates a simple ETL workflow, showing how data flows from r
 ## ⚡ How to Run
 
 1. Clone the repository using Git:  
-   git clone YOUR-REPO-LINK-HERE
+   git clone https://github.com/mateusz4815/sql-data-warehouse-project.git
 
 2. Open your database and run the SQL scripts in order:  
    - Bronze  
