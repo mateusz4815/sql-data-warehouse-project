@@ -35,7 +35,7 @@ These insights empower stakeholders with key business metrics, enabling strategi
 
 ## 🏗️ Data Architecture
 
-![Data Architecture](docs/diagram.png)
+![Data Architecture](docs/p2.png)
 
 The data warehouse pipeline is organized into three main layers:  
 
