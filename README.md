@@ -44,12 +44,12 @@ The data warehouse pipeline is organized into three main layers:
 3. **Gold (Analytical Data)** – Aggregated and modeled data ready for analytics, reporting, and visualization.  
 
 This structure demonstrates a simple ETL workflow, showing how data flows from raw sources to analytical outputs.
-## How to Run
+## ⚡ How to Run
 
 1. Clone the repository using Git:
 
-# Example:
-git clone <your-repo-link>
+```bash
+git clone https://github.com/mateusz4815/sql-data-warehouse-project.git
 
 2. Open your database and run the SQL scripts in order:
 - Bronze
@@ -61,8 +61,7 @@ git clone <your-repo-link>
 ---
 
 ## Technologies
-- SQL
-- PostgreSQL / SQLite / Snowflake (depending on your environment)
+- SQL Server
 - draw.io / diagrams.net (architecture diagram)
 
 ---
