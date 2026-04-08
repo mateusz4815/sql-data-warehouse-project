@@ -50,6 +50,7 @@ This structure demonstrates a simple ETL workflow, showing how data flows from r
 
 ```bash
 git clone https://github.com/mateusz4815/sql-data-warehouse-project.git
+```
 
 2. Open your database and run the SQL scripts in order:
 - Bronze
