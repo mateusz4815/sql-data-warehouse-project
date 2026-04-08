@@ -1,5 +1,3 @@
-tekstu, który można bezpośrednio skopiować:
-
 # Data Warehouse and Analytics Project
 
 Welcome to the **Data Warehouse and Analytics Project** repository!  
